@@ -1,0 +1,802 @@
+[
+  {
+    "entry_id": "adservice_cpu/1",
+    "summary": "Primary anomaly: adservice_cpu rose 61.9x (baseline 1.61 to peak 100).\nOther anomalies: cartservice_latency rose 11.0x; frontend-external_error rose 0 to 2; recommendationservice_latency rose 1.7x; frontend_latency rose 1.6x; emailservice_load rose 8.0x.\nServices involved: adservice, cartservice, frontend-external, recommendationservice, frontend.",
+    "root_cause_service": "adservice",
+    "fault_type": "cpu",
+    "t_start": 1685202292,
+    "t_end": 1685204766
+  },
+  {
+    "entry_id": "adservice_cpu/2",
+    "summary": "Primary anomaly: adservice_cpu rose 61.3x (baseline 1.63 to peak 100).\nOther anomalies: cartservice_latency rose 24.2x; frontend_latency rose 2.0x; recommendationservice_latency rose 1.8x; adservice_load rose 3.1x; productcatalogservice_latency rose 1.5x.\nServices involved: adservice, cartservice, frontend, recommendationservice, productcatalogservice.",
+    "root_cause_service": "adservice",
+    "fault_type": "cpu",
+    "t_start": 1685206532,
+    "t_end": 1685207085
+  },
+  {
+    "entry_id": "adservice_cpu/3",
+    "summary": "Primary anomaly: adservice_cpu rose 60.4x (baseline 1.66 to peak 100).\nOther anomalies: cartservice_latency rose 54.4x; recommendationservice_latency rose 2.2x; frontend_latency rose 2.2x; checkoutservice_latency rose 1.8x; productcatalogservice_latency rose 1.7x.\nServices involved: adservice, cartservice, recommendationservice, frontend, checkoutservice.",
+    "root_cause_service": "adservice",
+    "fault_type": "cpu",
+    "t_start": 1685210122,
+    "t_end": 1685213335
+  },
+  {
+    "entry_id": "adservice_cpu/4",
+    "summary": "Primary anomaly: adservice_cpu rose 35.8x (baseline 2.72 to peak 97.5).\nOther anomalies: recommendationservice_latency fell 0.0x; frontend_latency fell 0.1x; adservice_latency fell 0.1x; productcatalogservice_latency fell 0.0x; currencyservice_latency fell 0.0x.\nServices involved: adservice, recommendationservice, frontend, productcatalogservice, currencyservice.",
+    "root_cause_service": "adservice",
+    "fault_type": "cpu",
+    "t_start": 1685229493,
+    "t_end": 1685229826
+  },
+  {
+    "entry_id": "adservice_delay/1",
+    "summary": "Primary anomaly: adservice_latency rose 50.2x (baseline 0.00443 to peak 0.222).\nOther anomalies: paymentservice_cpu rose 2.5x; recommendationservice_latency rose 1.6x; frontend_latency fell 0.3x; redis_cpu fell 0.6x; recommendationservice_cpu fell 0.7x.\nServices involved: adservice, paymentservice, recommendationservice, frontend, redis.",
+    "root_cause_service": "adservice",
+    "fault_type": "delay",
+    "t_start": 1692583602,
+    "t_end": 1692584289
+  },
+  {
+    "entry_id": "adservice_delay/2",
+    "summary": "Primary anomaly: adservice_latency rose 53.6x (baseline 0.00439 to peak 0.235).\nOther anomalies: checkoutservice_latency rose 5.2x; frontend_cpu fell 0.6x; emailservice_cpu fell 0.6x; redis_cpu fell 0.6x; currencyservice_cpu fell 0.7x.\nServices involved: adservice, checkoutservice, frontend, emailservice, redis.",
+    "root_cause_service": "adservice",
+    "fault_type": "delay",
+    "t_start": 1692584696,
+    "t_end": 1692585048
+  },
+  {
+    "entry_id": "adservice_delay/3",
+    "summary": "Primary anomaly: shippingservice_cpu fell 0.6x (baseline 0.885 to peak 0.504).\nOther anomalies: cartservice_workload rose 3.0x; paymentservice_workload rose 2.9x; frontend_workload rose 3.0x; recommendationservice_workload rose 2.6x; redis_cpu fell 0.7x.\nServices involved: shippingservice, cartservice, paymentservice, frontend, recommendationservice.",
+    "root_cause_service": "adservice",
+    "fault_type": "delay",
+    "t_start": 1692585152,
+    "t_end": 1692585827
+  },
+  {
+    "entry_id": "adservice_delay/5",
+    "summary": "Primary anomaly: adservice_latency rose 51.4x (baseline 0.00432 to peak 0.222).\nOther anomalies: cartservice_cpu rose 1.8x; paymentservice_cpu fell 0.6x; checkoutservice_cpu fell 0.6x; productcatalogservice_latency fell 0.7x; redis_cpu fell 0.7x.\nServices involved: adservice, cartservice, paymentservice, checkoutservice, productcatalogservice.",
+    "root_cause_service": "adservice",
+    "fault_type": "delay",
+    "t_start": 1692611868,
+    "t_end": 1692612549
+  },
+  {
+    "entry_id": "adservice_disk/1",
+    "summary": "Primary anomaly: cartservice_latency rose 36.2x (baseline 0.00835 to peak 0.302).\nOther anomalies: adservice_cpu rose 14.4x; adservice_latency rose 4.9x; frontend_latency rose 3.0x; recommendationservice_latency rose 3.5x; currencyservice_latency rose 2.2x.\nServices involved: cartservice, adservice, frontend, recommendationservice, currencyservice.",
+    "root_cause_service": "adservice",
+    "fault_type": "disk",
+    "t_start": 1702354515,
+    "t_end": 1702355161
+  },
+  {
+    "entry_id": "adservice_disk/2",
+    "summary": "Primary anomaly: adservice_cpu rose 14.8x (baseline 1.95 to peak 28.8).\nOther anomalies: adservice_latency rose 3.7x; emailservice_latency rose 1.7x; productcatalogservice_latency rose 1.5x; recommendationservice_latency fell 0.5x; productcatalogservice_cpu fell 0.6x.\nServices involved: adservice, emailservice, productcatalogservice, recommendationservice, checkoutservice.",
+    "root_cause_service": "adservice",
+    "fault_type": "disk",
+    "t_start": 1702358716,
+    "t_end": 1702359402
+  },
+  {
+    "entry_id": "adservice_disk/4",
+    "summary": "Primary anomaly: adservice_cpu rose 15.0x (baseline 1.95 to peak 29.3).\nOther anomalies: checkoutservice_latency rose 2.6x; adservice_latency rose 4.5x; emailservice_latency rose 1.6x; productcatalogservice_latency rose 1.5x; frontend_cpu fell 0.6x.\nServices involved: adservice, checkoutservice, emailservice, productcatalogservice, frontend.",
+    "root_cause_service": "adservice",
+    "fault_type": "disk",
+    "t_start": 1702360260,
+    "t_end": 1702360920
+  },
+  {
+    "entry_id": "adservice_disk/5",
+    "summary": "Primary anomaly: adservice_cpu rose 14.2x (baseline 2.04 to peak 29.1).\nOther anomalies: adservice_latency rose 4.2x; recommendationservice_latency rose 1.9x; cartservice_latency rose 1.9x; emailservice_latency rose 1.8x; frontend_latency rose 1.7x.\nServices involved: adservice, recommendationservice, cartservice, emailservice, frontend.",
+    "root_cause_service": "adservice",
+    "fault_type": "disk",
+    "t_start": 1702361254,
+    "t_end": 1702361712
+  },
+  {
+    "entry_id": "adservice_loss/1",
+    "summary": "Primary anomaly: adservice_latency rose 83.9x (baseline 0.00439 to peak 0.368).\nOther anomalies: checkoutservice_latency rose 19.4x; cartservice_latency rose 9.6x; frontend_latency rose 3.1x; adservice_cpu rose 3.4x; recommendationservice_latency rose 2.2x.\nServices involved: adservice, checkoutservice, cartservice, frontend, recommendationservice.",
+    "root_cause_service": "adservice",
+    "fault_type": "loss",
+    "t_start": 1693321733,
+    "t_end": 1693322403
+  },
+  {
+    "entry_id": "adservice_loss/2",
+    "summary": "Primary anomaly: checkoutservice_latency rose 3.3x (baseline 0.0442 to peak 0.147).\nOther anomalies: adservice_cpu rose 2.6x; frontend_latency rose 1.8x; main_cpu fell 0.5x; shippingservice_cpu fell 0.6x; frontend_workload rose 2.8x.\nServices involved: checkoutservice, adservice, frontend, main, shippingservice.",
+    "root_cause_service": "adservice",
+    "fault_type": "loss",
+    "t_start": 1693316207,
+    "t_end": 1693316897
+  },
+  {
+    "entry_id": "adservice_loss/4",
+    "summary": "Primary anomaly: adservice_cpu rose 3.2x (baseline 0.311 to peak 0.988).\nOther anomalies: adservice_mem rose 1.5x; cartservice_workload rose 2.8x; productcatalogservice_workload rose 1.7x; emailservice_cpu fell 0.6x; adservice_workload rose 8.0x.\nServices involved: adservice, cartservice, productcatalogservice, emailservice, currencyservice.",
+    "root_cause_service": "adservice",
+    "fault_type": "loss",
+    "t_start": 1692660268,
+    "t_end": 1692660689
+  },
+  {
+    "entry_id": "adservice_loss/5",
+    "summary": "Primary anomaly: checkoutservice_latency rose 3.0x (baseline 0.0415 to peak 0.125).\nOther anomalies: adservice_cpu rose 3.6x; frontend_latency rose 2.7x; cartservice_latency rose 1.8x; cartservice_workload rose 2.9x; recommendationservice_workload rose 2.6x.\nServices involved: checkoutservice, adservice, frontend, cartservice, recommendationservice.",
+    "root_cause_service": "adservice",
+    "fault_type": "loss",
+    "t_start": 1693317751,
+    "t_end": 1693318441
+  },
+  {
+    "entry_id": "adservice_mem/2",
+    "summary": "Primary anomaly: adservice_cpu rose 28.3x (baseline 3.3 to peak 93.5).\nOther anomalies: adservice_mem rose 13.4x; cartservice_latency rose 4.4x; checkoutservice_latency rose 4.2x; shippingservice_latency rose 3.7x; adservice_latency rose 2.6x.\nServices involved: adservice, cartservice, checkoutservice, shippingservice, currencyservice.",
+    "root_cause_service": "adservice",
+    "fault_type": "mem",
+    "t_start": 1685233766,
+    "t_end": 1685235737
+  },
+  {
+    "entry_id": "adservice_mem/3",
+    "summary": "Primary anomaly: adservice_cpu rose 30.3x (baseline 3.16 to peak 95.8).\nOther anomalies: adservice_mem rose 13.5x; checkoutservice_latency rose 3.4x; shippingservice_latency rose 2.7x; adservice_latency rose 2.5x; cartservice_latency rose 3.3x.\nServices involved: adservice, checkoutservice, shippingservice, cartservice, redis.",
+    "root_cause_service": "adservice",
+    "fault_type": "mem",
+    "t_start": 1685238237,
+    "t_end": 1685239355
+  },
+  {
+    "entry_id": "adservice_mem/4",
+    "summary": "Primary anomaly: adservice_cpu rose 32.0x (baseline 2.93 to peak 93.9).\nOther anomalies: adservice_mem rose 13.5x; adservice_latency rose 2.3x; redis_cpu rose 2.1x; currencyservice_latency fell 0.0x; productcatalogservice_latency fell 0.0x.\nServices involved: adservice, redis, currencyservice, productcatalogservice, recommendationservice.",
+    "root_cause_service": "adservice",
+    "fault_type": "mem",
+    "t_start": 1685242731,
+    "t_end": 1685242910
+  },
+  {
+    "entry_id": "adservice_mem/5",
+    "summary": "Primary anomaly: adservice_cpu rose 47.0x (baseline 1.97 to peak 92.6).\nOther anomalies: adservice_mem rose 13.7x; frontend-external_error rose 0 to 2; cartservice_latency rose 15.6x; cartservice_cpu fell 0.5x; checkoutservice_load rose 14.0x.\nServices involved: adservice, frontend-external, cartservice, checkoutservice, paymentservice.",
+    "root_cause_service": "adservice",
+    "fault_type": "mem",
+    "t_start": 1685245031,
+    "t_end": 1685247421
+  },
+  {
+    "entry_id": "cartservice_cpu/1",
+    "summary": "Primary anomaly: cartservice_cpu rose 14.6x (baseline 6.83 to peak 100).\nOther anomalies: checkoutservice_latency rose 3.8x; cartservice_latency rose 3.5x; productcatalogservice_latency fell 0.0x; currencyservice_latency fell 0.0x; recommendationservice_latency fell 0.0x.\nServices involved: cartservice, checkoutservice, productcatalogservice, currencyservice, recommendationservice.",
+    "root_cause_service": "cartservice",
+    "fault_type": "cpu",
+    "t_start": 1685251406,
+    "t_end": 1685252517
+  },
+  {
+    "entry_id": "cartservice_cpu/2",
+    "summary": "Primary anomaly: cartservice_latency rose 93.2x (baseline 0.00747 to peak 0.696).\nOther anomalies: currencyservice_latency rose 44.7x; productcatalogservice_latency rose 44.3x; checkoutservice_latency rose 36.2x; recommendationservice_latency rose 29.7x; adservice_latency rose 19.7x.\nServices involved: cartservice, currencyservice, productcatalogservice, checkoutservice, recommendationservice.",
+    "root_cause_service": "cartservice",
+    "fault_type": "cpu",
+    "t_start": 1685253702,
+    "t_end": 1685255826
+  },
+  {
+    "entry_id": "cartservice_cpu/3",
+    "summary": "Primary anomaly: cartservice_cpu rose 18.9x (baseline 5.3 to peak 100).\nOther anomalies: currencyservice_latency fell 0.0x; productcatalogservice_latency fell 0.0x; frontend_latency fell 0.0x; redis_cpu rose 2.4x; adservice_latency fell 0.1x.\nServices involved: cartservice, currencyservice, productcatalogservice, frontend, redis.",
+    "root_cause_service": "cartservice",
+    "fault_type": "cpu",
+    "t_start": 1685260124,
+    "t_end": 1685260312
+  },
+  {
+    "entry_id": "cartservice_cpu/4",
+    "summary": "Primary anomaly: cartservice_cpu rose 15.5x (baseline 6.44 to peak 100).\nOther anomalies: cartservice_latency rose 2.7x; redis_cpu rose 2.2x; productcatalogservice_latency fell 0.0x; currencyservice_latency fell 0.0x; recommendationservice_latency fell 0.0x.\nServices involved: cartservice, redis, productcatalogservice, currencyservice, recommendationservice.",
+    "root_cause_service": "cartservice",
+    "fault_type": "cpu",
+    "t_start": 1685263724,
+    "t_end": 1685265403
+  },
+  {
+    "entry_id": "cartservice_delay/2",
+    "summary": "Primary anomaly: emailservice_cpu fell 0.6x (baseline 0.604 to peak 0.363).\nOther anomalies: adservice_cpu fell 0.6x; redis_cpu fell 0.6x; checkoutservice_workload rose 13.0x; emailservice_workload rose 13.0x; frontend_cpu fell 0.6x.\nServices involved: emailservice, adservice, redis, checkoutservice, frontend.",
+    "root_cause_service": "cartservice",
+    "fault_type": "delay",
+    "t_start": 1692628556,
+    "t_end": 1692629135
+  },
+  {
+    "entry_id": "cartservice_delay/3",
+    "summary": "Primary anomaly: checkoutservice_cpu fell 0.5x (baseline 0.967 to peak 0.491).\nOther anomalies: redis_cpu fell 0.5x; currencyservice_cpu fell 0.6x; recommendationservice_cpu fell 0.6x; recommendationservice_latency rose 1.6x; adservice_cpu fell 0.6x.\nServices involved: checkoutservice, redis, currencyservice, recommendationservice, adservice.",
+    "root_cause_service": "cartservice",
+    "fault_type": "delay",
+    "t_start": 1692608024,
+    "t_end": 1692608705
+  },
+  {
+    "entry_id": "cartservice_delay/4",
+    "summary": "Primary anomaly: recommendationservice_latency rose 2.4x (baseline 0.00494 to peak 0.0118).\nOther anomalies: cartservice_cpu fell 0.5x; recommendationservice_workload rose 3.7x; productcatalogservice_workload rose 3.6x; cartservice_workload rose 3.2x; frontend-external_workload rose 3.0x.\nServices involved: recommendationservice, cartservice, productcatalogservice, frontend-external, frontend.",
+    "root_cause_service": "cartservice",
+    "fault_type": "delay",
+    "t_start": 1692621376,
+    "t_end": 1692621753
+  },
+  {
+    "entry_id": "cartservice_delay/5",
+    "summary": "Primary anomaly: recommendationservice_latency rose 2.1x (baseline 0.00495 to peak 0.0103).\nOther anomalies: cartservice_cpu fell 0.4x; redis_cpu fell 0.5x; shippingservice_cpu fell 0.6x; adservice_cpu fell 0.6x; cartservice_latency rose 150.5x.\nServices involved: recommendationservice, cartservice, redis, shippingservice, adservice.",
+    "root_cause_service": "cartservice",
+    "fault_type": "delay",
+    "t_start": 1692629353,
+    "t_end": 1692629984
+  },
+  {
+    "entry_id": "cartservice_disk/1",
+    "summary": "Primary anomaly: cartservice_latency rose 27.1x (baseline 0.0093 to peak 0.252).\nOther anomalies: cartservice_cpu rose 4.1x; checkoutservice_latency rose 2.7x; frontend_latency rose 2.6x; currencyservice_latency rose 3.0x; recommendationservice_latency rose 2.2x.\nServices involved: cartservice, checkoutservice, frontend, currencyservice, recommendationservice.",
+    "root_cause_service": "cartservice",
+    "fault_type": "disk",
+    "t_start": 1702355262,
+    "t_end": 1702355948
+  },
+  {
+    "entry_id": "cartservice_disk/3",
+    "summary": "Primary anomaly: cartservice_latency rose 24.8x (baseline 0.00917 to peak 0.228).\nOther anomalies: cartservice_cpu rose 3.6x; frontend-check_mem rose 0 to 2.68e+06; checkoutservice_latency rose 2.7x; frontend_cpu fell 0.1x; main_cpu fell 0.2x.\nServices involved: cartservice, frontend-check, checkoutservice, frontend, main.",
+    "root_cause_service": "cartservice",
+    "fault_type": "disk",
+    "t_start": 1702362622,
+    "t_end": 1702363285
+  },
+  {
+    "entry_id": "cartservice_disk/4",
+    "summary": "Primary anomaly: checkoutservice_latency rose 2.9x (baseline 0.0823 to peak 0.239).\nOther anomalies: cartservice_latency rose 26.9x; cartservice_cpu rose 3.4x; emailservice_latency rose 1.6x; adservice_cpu rose 1.6x; main_cpu fell 0.6x.\nServices involved: checkoutservice, cartservice, emailservice, adservice, main.",
+    "root_cause_service": "cartservice",
+    "fault_type": "disk",
+    "t_start": 1702363401,
+    "t_end": 1702364046
+  },
+  {
+    "entry_id": "cartservice_disk/5",
+    "summary": "Primary anomaly: cartservice_latency rose 10.3x (baseline 0.00834 to peak 0.0862).\nOther anomalies: cartservice_cpu rose 3.3x; checkoutservice_latency rose 2.0x; frontend_latency rose 2.0x; currencyservice_latency rose 1.9x; adservice_latency rose 1.6x.\nServices involved: cartservice, checkoutservice, frontend, currencyservice, adservice.",
+    "root_cause_service": "cartservice",
+    "fault_type": "disk",
+    "t_start": 1702364160,
+    "t_end": 1702364805
+  },
+  {
+    "entry_id": "cartservice_loss/1",
+    "summary": "Primary anomaly: cartservice_latency rose 88.4x (baseline 0.00473 to peak 0.418).\nOther anomalies: frontend_latency rose 12.9x; checkoutservice_latency rose 11.7x; recommendationservice_latency rose 5.8x; adservice_cpu fell 0.2x; productcatalogservice_mem fell 0.4x.\nServices involved: cartservice, frontend, checkoutservice, recommendationservice, adservice.",
+    "root_cause_service": "cartservice",
+    "fault_type": "loss",
+    "t_start": 1693313122,
+    "t_end": 1693313809
+  },
+  {
+    "entry_id": "cartservice_loss/3",
+    "summary": "Primary anomaly: cartservice_latency rose 48.9x (baseline 0.00457 to peak 0.223).\nOther anomalies: recommendationservice_latency rose 1.9x; paymentservice_cpu fell 0.5x; frontend_cpu fell 0.6x; currencyservice_cpu fell 0.6x; productcatalogservice_cpu fell 0.6x.\nServices involved: cartservice, recommendationservice, paymentservice, frontend, currencyservice.",
+    "root_cause_service": "cartservice",
+    "fault_type": "loss",
+    "t_start": 1692641474,
+    "t_end": 1692642143
+  },
+  {
+    "entry_id": "cartservice_loss/4",
+    "summary": "Primary anomaly: adservice_cpu rose 3.8x (baseline 0.852 to peak 3.25).\nOther anomalies: cartservice_latency rose 43.9x; checkoutservice_latency fell 0.6x; recommendationservice_cpu fell 0.6x; checkoutservice_workload rose 0 to 20; emailservice_workload rose 0 to 20.\nServices involved: adservice, cartservice, checkoutservice, recommendationservice, emailservice.",
+    "root_cause_service": "cartservice",
+    "fault_type": "loss",
+    "t_start": 1692642250,
+    "t_end": 1692642712
+  },
+  {
+    "entry_id": "cartservice_loss/5",
+    "summary": "Primary anomaly: cartservice_latency rose 44.5x (baseline 0.00457 to peak 0.203).\nOther anomalies: recommendationservice_latency rose 1.8x; cartservice_workload rose 3.9x; adservice_workload rose 2.6x; emailservice_workload rose 0 to 18; productcatalogservice_workload fell 0.3x.\nServices involved: cartservice, recommendationservice, adservice, emailservice, productcatalogservice.",
+    "root_cause_service": "cartservice",
+    "fault_type": "loss",
+    "t_start": 1692643017,
+    "t_end": 1692643394
+  },
+  {
+    "entry_id": "cartservice_mem/1",
+    "summary": "Primary anomaly: cartservice_cpu rose 13.1x (baseline 7.02 to peak 91.7).\nOther anomalies: cartservice_mem rose 8.9x; cartservice_latency rose 8.4x; checkoutservice_latency rose 3.3x; shippingservice_latency rose 2.3x; adservice_latency rose 2.0x.\nServices involved: cartservice, checkoutservice, shippingservice, adservice, recommendationservice.",
+    "root_cause_service": "cartservice",
+    "fault_type": "mem",
+    "t_start": 1685273015,
+    "t_end": 1685273521
+  },
+  {
+    "entry_id": "cartservice_mem/2",
+    "summary": "Primary anomaly: cartservice_latency rose 10.4x (baseline 0.215 to peak 2.23).\nOther anomalies: shippingservice_latency rose 2.9x; cartservice_cpu rose 14.7x; checkoutservice_latency rose 3.7x; recommendationservice_latency rose 2.1x; adservice_latency rose 2.0x.\nServices involved: cartservice, shippingservice, checkoutservice, recommendationservice, adservice.",
+    "root_cause_service": "cartservice",
+    "fault_type": "mem",
+    "t_start": 1685277493,
+    "t_end": 1685279566
+  },
+  {
+    "entry_id": "cartservice_mem/3",
+    "summary": "Primary anomaly: cartservice_cpu rose 14.4x (baseline 6.37 to peak 91.7).\nOther anomalies: cartservice_latency rose 11.5x; cartservice_mem rose 9.1x; frontend-external_error rose 0 to 66; frontend_error rose 0 to 74; recommendationservice_latency rose 3.1x.\nServices involved: cartservice, frontend-external, frontend, recommendationservice, shippingservice.",
+    "root_cause_service": "cartservice",
+    "fault_type": "mem",
+    "t_start": 1685281138,
+    "t_end": 1685283921
+  },
+  {
+    "entry_id": "cartservice_mem/5",
+    "summary": "Primary anomaly: cartservice_cpu rose 12.6x (baseline 7.29 to peak 91.6).\nOther anomalies: cartservice_mem rose 8.9x; shippingservice_latency rose 5.4x; checkoutservice_latency rose 3.8x; recommendationservice_latency rose 2.6x; redis_cpu rose 2.2x.\nServices involved: cartservice, shippingservice, checkoutservice, recommendationservice, redis.",
+    "root_cause_service": "cartservice",
+    "fault_type": "mem",
+    "t_start": 1685288969,
+    "t_end": 1685292608
+  },
+  {
+    "entry_id": "checkoutservice_cpu/1",
+    "summary": "Primary anomaly: checkoutservice_cpu rose 97.9x (baseline 1.02 to peak 100).\nOther anomalies: redis_cpu rose 2.1x; productcatalogservice_latency fell 0.0x; currencyservice_latency fell 0.0x; recommendationservice_latency fell 0.0x; frontend_latency fell 0.0x.\nServices involved: checkoutservice, redis, productcatalogservice, currencyservice, recommendationservice.",
+    "root_cause_service": "checkoutservice",
+    "fault_type": "cpu",
+    "t_start": 1685294005,
+    "t_end": 1685295755
+  },
+  {
+    "entry_id": "checkoutservice_cpu/2",
+    "summary": "Primary anomaly: checkoutservice_cpu rose 65.6x (baseline 1.52 to peak 99.9).\nOther anomalies: cartservice_latency rose 3.0x; checkoutservice_latency rose 2.0x; paymentservice_load rose 24.0x; emailservice_cpu rose 1.7x; emailservice_latency rose 1.7x.\nServices involved: checkoutservice, cartservice, paymentservice, emailservice, productcatalogservice.",
+    "root_cause_service": "checkoutservice",
+    "fault_type": "cpu",
+    "t_start": 1685550777,
+    "t_end": 1685552594
+  },
+  {
+    "entry_id": "checkoutservice_cpu/4",
+    "summary": "Primary anomaly: checkoutservice_cpu rose 96.0x (baseline 1.04 to peak 99.9).\nOther anomalies: currencyservice_cpu rose 2.2x; productcatalogservice_latency fell 0.0x; currencyservice_latency fell 0.0x; frontend_latency fell 0.0x; shippingservice_latency fell 0.1x.\nServices involved: checkoutservice, currencyservice, productcatalogservice, frontend, shippingservice.",
+    "root_cause_service": "checkoutservice",
+    "fault_type": "cpu",
+    "t_start": 1685555665,
+    "t_end": 1685556840
+  },
+  {
+    "entry_id": "checkoutservice_cpu/5",
+    "summary": "Primary anomaly: checkoutservice_cpu rose 72.0x (baseline 1.39 to peak 99.9).\nOther anomalies: cartservice_latency rose 2.7x; shippingservice_cpu rose 2.1x; currencyservice_cpu rose 2.3x; productcatalogservice_latency fell 0.0x; checkoutservice_latency rose 2.0x.\nServices involved: checkoutservice, cartservice, shippingservice, currencyservice, productcatalogservice.",
+    "root_cause_service": "checkoutservice",
+    "fault_type": "cpu",
+    "t_start": 1685568203,
+    "t_end": 1685569927
+  },
+  {
+    "entry_id": "checkoutservice_delay/1",
+    "summary": "Primary anomaly: checkoutservice_latency rose 105.5x (baseline 0.0435 to peak 4.59).\nOther anomalies: cartservice_latency rose 14.0x; frontend_latency rose 7.1x; recommendationservice_latency rose 3.5x; adservice_cpu fell 0.3x; adservice_workload rose 2.8x.\nServices involved: checkoutservice, cartservice, frontend, recommendationservice, adservice.",
+    "root_cause_service": "checkoutservice",
+    "fault_type": "delay",
+    "t_start": 1692602644,
+    "t_end": 1692603306
+  },
+  {
+    "entry_id": "checkoutservice_delay/3",
+    "summary": "Primary anomaly: frontend_latency rose 6.8x (baseline 0.0645 to peak 0.436).\nOther anomalies: cartservice_latency rose 2.2x; recommendationservice_latency rose 1.8x; adservice_cpu rose 1.4x; frontend-external_workload rose 3.1x; main_cpu fell 0.6x.\nServices involved: frontend, cartservice, recommendationservice, adservice, frontend-external.",
+    "root_cause_service": "checkoutservice",
+    "fault_type": "delay",
+    "t_start": 1692604179,
+    "t_end": 1692604862
+  },
+  {
+    "entry_id": "checkoutservice_delay/4",
+    "summary": "Primary anomaly: cartservice_latency rose 48.4x (baseline 0.00442 to peak 0.214).\nOther anomalies: frontend_latency rose 11.3x; recommendationservice_latency rose 3.4x; cartservice_cpu fell 0.5x; frontend-external_workload rose 2.8x; main_cpu fell 0.6x.\nServices involved: cartservice, frontend, recommendationservice, frontend-external, main.",
+    "root_cause_service": "checkoutservice",
+    "fault_type": "delay",
+    "t_start": 1692604948,
+    "t_end": 1692605624
+  },
+  {
+    "entry_id": "checkoutservice_delay/5",
+    "summary": "Primary anomaly: cartservice_latency rose 2.3x (baseline 0.00473 to peak 0.0109).\nOther anomalies: frontend_latency rose 2.5x; adservice_workload rose 2.6x; recommendationservice_workload rose 3.0x; cartservice_cpu rose 1.4x; productcatalogservice_workload rose 2.5x.\nServices involved: cartservice, frontend, adservice, recommendationservice, productcatalogservice.",
+    "root_cause_service": "checkoutservice",
+    "fault_type": "delay",
+    "t_start": 1692605712,
+    "t_end": 1692606142
+  },
+  {
+    "entry_id": "checkoutservice_disk/1",
+    "summary": "Primary anomaly: checkoutservice_cpu rose 22.3x (baseline 1.31 to peak 29.3).\nOther anomalies: checkoutservice_latency rose 2.3x; frontend_latency rose 2.1x; emailservice_latency rose 1.7x; adservice_latency rose 1.7x; currencyservice_latency rose 1.6x.\nServices involved: checkoutservice, frontend, emailservice, adservice, currencyservice.",
+    "root_cause_service": "checkoutservice",
+    "fault_type": "disk",
+    "t_start": 1702356041,
+    "t_end": 1702356720
+  },
+  {
+    "entry_id": "checkoutservice_disk/2",
+    "summary": "Primary anomaly: cartservice_latency rose 20.5x (baseline 0.00918 to peak 0.188).\nOther anomalies: checkoutservice_cpu rose 19.2x; checkoutservice_latency rose 6.0x; frontend_latency rose 2.2x; currencyservice_latency rose 1.9x; emailservice_latency rose 1.8x.\nServices involved: cartservice, checkoutservice, frontend, currencyservice, emailservice.",
+    "root_cause_service": "checkoutservice",
+    "fault_type": "disk",
+    "t_start": 1702364934,
+    "t_end": 1702365606
+  },
+  {
+    "entry_id": "checkoutservice_disk/3",
+    "summary": "Primary anomaly: cartservice_latency rose 26.4x (baseline 0.00959 to peak 0.253).\nOther anomalies: checkoutservice_cpu rose 22.5x; checkoutservice_latency rose 2.9x; recommendationservice_latency rose 2.7x; productcatalogservice_latency rose 2.7x; emailservice_latency rose 2.0x.\nServices involved: cartservice, checkoutservice, recommendationservice, productcatalogservice, emailservice.",
+    "root_cause_service": "checkoutservice",
+    "fault_type": "disk",
+    "t_start": 1702365692,
+    "t_end": 1702366377
+  },
+  {
+    "entry_id": "checkoutservice_disk/5",
+    "summary": "Primary anomaly: cartservice_latency rose 2.4x (baseline 0.0088 to peak 0.0215).\nOther anomalies: checkoutservice_cpu rose 18.0x; checkoutservice_latency rose 2.2x; productcatalogservice_latency rose 1.9x; adservice_cpu rose 1.9x; emailservice_latency rose 1.8x.\nServices involved: cartservice, checkoutservice, productcatalogservice, adservice, emailservice.",
+    "root_cause_service": "checkoutservice",
+    "fault_type": "disk",
+    "t_start": 1702367238,
+    "t_end": 1702367912
+  },
+  {
+    "entry_id": "checkoutservice_loss/1",
+    "summary": "Primary anomaly: cartservice_latency rose 41.2x (baseline 0.00453 to peak 0.187).\nOther anomalies: paymentservice_latency rose 27.6x; frontend-external_error rose 0 to 2; recommendationservice_latency rose 1.8x; recommendationservice_cpu fell 0.6x; frontend_cpu fell 0.6x.\nServices involved: cartservice, paymentservice, frontend-external, recommendationservice, frontend.",
+    "root_cause_service": "checkoutservice",
+    "fault_type": "loss",
+    "t_start": 1692634035,
+    "t_end": 1692634707
+  },
+  {
+    "entry_id": "checkoutservice_loss/3",
+    "summary": "Primary anomaly: frontend-external_error rose 0 to 2 (baseline 0 to peak 2).\nOther anomalies: checkoutservice_cpu rose 2.0x; currencyservice_cpu fell 0.6x; frontend_cpu fell 0.6x; shippingservice_cpu fell 0.6x; main_cpu fell 0.6x.\nServices involved: frontend-external, checkoutservice, currencyservice, frontend, shippingservice.",
+    "root_cause_service": "checkoutservice",
+    "fault_type": "loss",
+    "t_start": 1692635585,
+    "t_end": 1692636265
+  },
+  {
+    "entry_id": "checkoutservice_loss/4",
+    "summary": "Primary anomaly: recommendationservice_latency rose 1.5x (baseline 0.245 to peak 0.374).\nOther anomalies: shippingservice_cpu fell 0.6x; productcatalogservice_cpu fell 0.6x; emailservice_workload rose 14.0x; checkoutservice_workload rose 14.0x; currencyservice_cpu fell 0.6x.\nServices involved: recommendationservice, shippingservice, productcatalogservice, emailservice, checkoutservice.",
+    "root_cause_service": "checkoutservice",
+    "fault_type": "loss",
+    "t_start": 1692636354,
+    "t_end": 1692637025
+  },
+  {
+    "entry_id": "checkoutservice_loss/5",
+    "summary": "Primary anomaly: cartservice_latency rose 11.7x (baseline 0.00478 to peak 0.0557).\nOther anomalies: checkoutservice_cpu rose 2.0x; cartservice_cpu fell 0.6x; recommendationservice_latency rose 1.6x; adservice_cpu fell 0.6x; checkoutservice_latency fell 0.6x.\nServices involved: cartservice, checkoutservice, recommendationservice, adservice, emailservice.",
+    "root_cause_service": "checkoutservice",
+    "fault_type": "loss",
+    "t_start": 1692637122,
+    "t_end": 1692637802
+  },
+  {
+    "entry_id": "checkoutservice_mem/2",
+    "summary": "Primary anomaly: checkoutservice_cpu rose 62.5x (baseline 1.45 to peak 90.6).\nOther anomalies: cartservice_latency rose 54.6x; checkoutservice_mem rose 44.5x; checkoutservice_latency rose 25.3x; productcatalogservice_latency rose 20.3x; adservice_latency rose 14.6x.\nServices involved: checkoutservice, cartservice, productcatalogservice, adservice, recommendationservice.",
+    "root_cause_service": "checkoutservice",
+    "fault_type": "mem",
+    "t_start": 1685503383,
+    "t_end": 1685507539
+  },
+  {
+    "entry_id": "checkoutservice_mem/3",
+    "summary": "Primary anomaly: cartservice_latency rose 75.4x (baseline 0.00495 to peak 0.373).\nOther anomalies: checkoutservice_cpu rose 59.3x; checkoutservice_mem rose 45.8x; checkoutservice_latency rose 39.3x; frontend_latency rose 3.4x; recommendationservice_latency rose 2.5x.\nServices involved: cartservice, checkoutservice, frontend, recommendationservice, productcatalogservice.",
+    "root_cause_service": "checkoutservice",
+    "fault_type": "mem",
+    "t_start": 1685319814,
+    "t_end": 1685323971
+  },
+  {
+    "entry_id": "checkoutservice_mem/4",
+    "summary": "Primary anomaly: checkoutservice_cpu rose 57.4x (baseline 1.54 to peak 88.3).\nOther anomalies: checkoutservice_mem rose 45.3x; checkoutservice_latency rose 36.8x; cartservice_latency rose 33.4x; frontend_latency rose 3.1x; recommendationservice_latency rose 2.4x.\nServices involved: checkoutservice, cartservice, frontend, recommendationservice, currencyservice.",
+    "root_cause_service": "checkoutservice",
+    "fault_type": "mem",
+    "t_start": 1685324914,
+    "t_end": 1685327994
+  },
+  {
+    "entry_id": "checkoutservice_mem/5",
+    "summary": "Primary anomaly: cartservice_latency rose 78.5x (baseline 0.0048 to peak 0.377).\nOther anomalies: checkoutservice_cpu rose 60.7x; checkoutservice_mem rose 45.2x; checkoutservice_latency rose 30.2x; frontend_latency rose 3.0x; recommendationservice_latency rose 2.4x.\nServices involved: cartservice, checkoutservice, frontend, recommendationservice, shippingservice.",
+    "root_cause_service": "checkoutservice",
+    "fault_type": "mem",
+    "t_start": 1685507959,
+    "t_end": 1685511888
+  },
+  {
+    "entry_id": "currencyservice_cpu/1",
+    "summary": "Primary anomaly: cartservice_latency rose 95.2x (baseline 0.00494 to peak 0.47).\nOther anomalies: productcatalogservice_latency rose 42.6x; recommendationservice_latency rose 25.2x; adservice_latency rose 17.4x; frontend_latency rose 17.0x; currencyservice_latency rose 15.1x.\nServices involved: cartservice, productcatalogservice, recommendationservice, adservice, frontend.",
+    "root_cause_service": "currencyservice",
+    "fault_type": "cpu",
+    "t_start": 1685512064,
+    "t_end": 1685515112
+  },
+  {
+    "entry_id": "currencyservice_cpu/2",
+    "summary": "Primary anomaly: currencyservice_cpu rose 17.2x (baseline 5.82 to peak 100).\nOther anomalies: emailservice_latency rose 3.7x; frontend-external_error rose 0 to 4; paymentservice_latency rose 3.2x; emailservice_cpu rose 3.3x; paymentservice_cpu rose 3.6x.\nServices involved: currencyservice, emailservice, frontend-external, paymentservice, shippingservice.",
+    "root_cause_service": "currencyservice",
+    "fault_type": "cpu",
+    "t_start": 1685517757,
+    "t_end": 1685520664
+  },
+  {
+    "entry_id": "currencyservice_cpu/3",
+    "summary": "Primary anomaly: currencyservice_cpu rose 24.9x (baseline 4.02 to peak 100).\nOther anomalies: checkoutservice_latency rose 2.4x; frontend_latency fell 0.0x; productcatalogservice_latency fell 0.0x; paymentservice_load rose 0 to 34; adservice_latency fell 0.0x.\nServices involved: currencyservice, checkoutservice, frontend, productcatalogservice, paymentservice.",
+    "root_cause_service": "currencyservice",
+    "fault_type": "cpu",
+    "t_start": 1685522583,
+    "t_end": 1685525080
+  },
+  {
+    "entry_id": "currencyservice_cpu/4",
+    "summary": "Primary anomaly: currencyservice_cpu rose 21.6x (baseline 4.62 to peak 100).\nOther anomalies: shippingservice_cpu rose 2.4x; main_cpu rose 2.0x; productcatalogservice_latency fell 0.0x; recommendationservice_latency fell 0.0x; currencyservice_latency fell 0.0x.\nServices involved: currencyservice, shippingservice, main, productcatalogservice, recommendationservice.",
+    "root_cause_service": "currencyservice",
+    "fault_type": "cpu",
+    "t_start": 1685526311,
+    "t_end": 1685527673
+  },
+  {
+    "entry_id": "currencyservice_delay/1",
+    "summary": "Primary anomaly: currencyservice_latency rose 51.2x (baseline 0.00434 to peak 0.222).\nOther anomalies: frontend_latency rose 17.9x; emailservice_cpu fell 0.6x; checkoutservice_cpu fell 0.6x; currencyservice_cpu fell 0.6x; shippingservice_cpu fell 0.7x.\nServices involved: currencyservice, frontend, emailservice, checkoutservice, shippingservice.",
+    "root_cause_service": "currencyservice",
+    "fault_type": "delay",
+    "t_start": 1692575947,
+    "t_end": 1692576608
+  },
+  {
+    "entry_id": "currencyservice_delay/2",
+    "summary": "Primary anomaly: frontend_latency rose 10.4x (baseline 0.177 to peak 1.83).\nOther anomalies: currencyservice_cpu fell 0.6x; currencyservice_latency rose 50.0x; paymentservice_cpu fell 0.6x; main_cpu fell 0.6x; cartservice_cpu rose 1.5x.\nServices involved: frontend, currencyservice, paymentservice, main, cartservice.",
+    "root_cause_service": "currencyservice",
+    "fault_type": "delay",
+    "t_start": 1692576717,
+    "t_end": 1692577372
+  },
+  {
+    "entry_id": "currencyservice_delay/3",
+    "summary": "Primary anomaly: currencyservice_latency rose 49.8x (baseline 0.00444 to peak 0.221).\nOther anomalies: frontend_latency rose 16.1x; currencyservice_cpu fell 0.5x; emailservice_cpu fell 0.5x; cartservice_cpu fell 0.5x; paymentservice_cpu fell 0.5x.\nServices involved: currencyservice, frontend, emailservice, cartservice, paymentservice.",
+    "root_cause_service": "currencyservice",
+    "fault_type": "delay",
+    "t_start": 1692610322,
+    "t_end": 1692610987
+  },
+  {
+    "entry_id": "currencyservice_delay/5",
+    "summary": "Primary anomaly: frontend_latency rose 13.6x (baseline 0.136 to peak 1.86).\nOther anomalies: currencyservice_cpu fell 0.6x; checkoutservice_latency rose 43.2x; redis_cpu fell 0.6x; recommendationservice_cpu fell 0.5x; cartservice_cpu rose 1.6x.\nServices involved: frontend, currencyservice, checkoutservice, redis, recommendationservice.",
+    "root_cause_service": "currencyservice",
+    "fault_type": "delay",
+    "t_start": 1692579000,
+    "t_end": 1692579675
+  },
+  {
+    "entry_id": "currencyservice_disk/2",
+    "summary": "Primary anomaly: currencyservice_latency rose 14.1x (baseline 0.00599 to peak 0.0846).\nOther anomalies: cartservice_latency rose 10.7x; checkoutservice_latency rose 2.9x; frontend_latency rose 2.1x; currencyservice_cpu rose 1.7x; emailservice_latency rose 1.6x.\nServices involved: currencyservice, cartservice, checkoutservice, frontend, emailservice.",
+    "root_cause_service": "currencyservice",
+    "fault_type": "disk",
+    "t_start": 1702368011,
+    "t_end": 1702368697
+  },
+  {
+    "entry_id": "currencyservice_disk/3",
+    "summary": "Primary anomaly: currencyservice_latency rose 16.8x (baseline 0.00498 to peak 0.0836).\nOther anomalies: checkoutservice_latency rose 3.6x; cartservice_latency rose 2.4x; frontend_latency rose 2.3x; recommendationservice_latency rose 2.1x; currencyservice_cpu rose 1.9x.\nServices involved: currencyservice, checkoutservice, cartservice, frontend, recommendationservice.",
+    "root_cause_service": "currencyservice",
+    "fault_type": "disk",
+    "t_start": 1702379644,
+    "t_end": 1702380316
+  },
+  {
+    "entry_id": "currencyservice_disk/4",
+    "summary": "Primary anomaly: cartservice_latency rose 13.1x (baseline 0.00997 to peak 0.131).\nOther anomalies: recommendationservice_latency rose 3.1x; frontend_latency rose 2.2x; paymentservice_latency rose 1.8x; currencyservice_mem fell 0.5x; adservice_latency rose 1.5x.\nServices involved: cartservice, recommendationservice, frontend, paymentservice, currencyservice.",
+    "root_cause_service": "currencyservice",
+    "fault_type": "disk",
+    "t_start": 1702372822,
+    "t_end": 1702373507
+  },
+  {
+    "entry_id": "currencyservice_disk/5",
+    "summary": "Primary anomaly: currencyservice_latency rose 17.2x (baseline 0.00495 to peak 0.0852).\nOther anomalies: checkoutservice_latency rose 3.0x; frontend_latency rose 2.5x; cartservice_latency rose 2.5x; currencyservice_cpu rose 1.8x; paymentservice_latency rose 1.8x.\nServices involved: currencyservice, checkoutservice, frontend, cartservice, paymentservice.",
+    "root_cause_service": "currencyservice",
+    "fault_type": "disk",
+    "t_start": 1702373890,
+    "t_end": 1702374284
+  },
+  {
+    "entry_id": "currencyservice_loss/2",
+    "summary": "Primary anomaly: currencyservice_latency rose 4.1x (baseline 0.00432 to peak 0.0176).\nOther anomalies: recommendationservice_latency rose 2.0x; cartservice_latency rose 1.7x; cartservice_cpu rose 1.6x; productcatalogservice_cpu fell 0.5x; shippingservice_cpu fell 0.6x.\nServices involved: currencyservice, recommendationservice, cartservice, productcatalogservice, shippingservice.",
+    "root_cause_service": "currencyservice",
+    "fault_type": "loss",
+    "t_start": 1692646582,
+    "t_end": 1692647255
+  },
+  {
+    "entry_id": "currencyservice_loss/3",
+    "summary": "Primary anomaly: cartservice_latency rose 111.5x (baseline 0.00443 to peak 0.494).\nOther anomalies: currencyservice_latency rose 8.3x; recommendationservice_latency rose 2.9x; cartservice_workload rose 3.2x; cartservice_cpu fell 0.4x; currencyservice_workload rose 3.0x.\nServices involved: cartservice, currencyservice, recommendationservice, frontend, productcatalogservice.",
+    "root_cause_service": "currencyservice",
+    "fault_type": "loss",
+    "t_start": 1692647472,
+    "t_end": 1692648022
+  },
+  {
+    "entry_id": "currencyservice_loss/4",
+    "summary": "Primary anomaly: currencyservice_latency rose 5.4x (baseline 0.00431 to peak 0.0233).\nOther anomalies: recommendationservice_latency rose 2.1x; cartservice_latency rose 2.0x; checkoutservice_latency fell 0.5x; currencyservice_cpu fell 0.6x; checkoutservice_cpu fell 0.6x.\nServices involved: currencyservice, recommendationservice, cartservice, checkoutservice, frontend.",
+    "root_cause_service": "currencyservice",
+    "fault_type": "loss",
+    "t_start": 1692648145,
+    "t_end": 1692648815
+  },
+  {
+    "entry_id": "currencyservice_loss/5",
+    "summary": "Primary anomaly: currencyservice_latency rose 6.9x (baseline 0.00435 to peak 0.0299).\nOther anomalies: cartservice_latency rose 1.8x; cartservice_workload rose 3.1x; recommendationservice_latency rose 2.0x; currencyservice_workload rose 3.2x; cartservice_cpu fell 0.4x.\nServices involved: currencyservice, cartservice, recommendationservice, paymentservice, main.",
+    "root_cause_service": "currencyservice",
+    "fault_type": "loss",
+    "t_start": 1692648906,
+    "t_end": 1692649587
+  },
+  {
+    "entry_id": "currencyservice_mem/2",
+    "summary": "Primary anomaly: currencyservice_latency rose 124.6x (baseline 0.0047 to peak 0.586).\nOther anomalies: cartservice_latency rose 34.2x; checkoutservice_latency rose 18.5x; currencyservice_mem rose 13.5x; currencyservice_cpu rose 10.0x; frontend_latency rose 8.4x.\nServices involved: currencyservice, cartservice, checkoutservice, frontend, recommendationservice.",
+    "root_cause_service": "currencyservice",
+    "fault_type": "mem",
+    "t_start": 1685349373,
+    "t_end": 1685351515
+  },
+  {
+    "entry_id": "currencyservice_mem/3",
+    "summary": "Primary anomaly: currencyservice_latency rose 86.2x (baseline 0.00468 to peak 0.403).\nOther anomalies: checkoutservice_latency rose 18.7x; currencyservice_mem rose 13.2x; currencyservice_cpu rose 10.4x; frontend_latency rose 6.4x; cartservice_latency rose 4.7x.\nServices involved: currencyservice, checkoutservice, frontend, cartservice, recommendationservice.",
+    "root_cause_service": "currencyservice",
+    "fault_type": "mem",
+    "t_start": 1685354949,
+    "t_end": 1685355813
+  },
+  {
+    "entry_id": "currencyservice_mem/4",
+    "summary": "Primary anomaly: currencyservice_latency rose 102.1x (baseline 0.00976 to peak 0.997).\nOther anomalies: currencyservice_mem rose 13.2x; currencyservice_cpu rose 8.6x; checkoutservice_latency rose 45.8x; shippingservice_latency rose 18.9x; adservice_cpu rose 2.1x.\nServices involved: currencyservice, checkoutservice, shippingservice, adservice, cartservice.",
+    "root_cause_service": "currencyservice",
+    "fault_type": "mem",
+    "t_start": 1685535709,
+    "t_end": 1685536929
+  },
+  {
+    "entry_id": "currencyservice_mem/5",
+    "summary": "Primary anomaly: currencyservice_cpu rose 16.9x (baseline 5.01 to peak 84.8).\nOther anomalies: currencyservice_mem rose 13.6x; currencyservice_latency rose 10.8x; checkoutservice_latency rose 5.2x; cartservice_latency rose 2.5x; productcatalogservice_latency fell 0.0x.\nServices involved: currencyservice, checkoutservice, cartservice, productcatalogservice, frontend.",
+    "root_cause_service": "currencyservice",
+    "fault_type": "mem",
+    "t_start": 1685539712,
+    "t_end": 1685540739
+  },
+  {
+    "entry_id": "productcatalogservice_cpu/1",
+    "summary": "Primary anomaly: cartservice_latency rose 24.6x (baseline 0.00492 to peak 0.121).\nOther anomalies: productcatalogservice_cpu rose 9.9x; frontend_latency rose 1.7x; productcatalogservice_mem rose 1.6x; shippingservice_cpu fell 0.5x; frontend_cpu fell 0.6x.\nServices involved: cartservice, productcatalogservice, frontend, shippingservice, recommendationservice.",
+    "root_cause_service": "productcatalogservice",
+    "fault_type": "cpu",
+    "t_start": 1685362508,
+    "t_end": 1685366659
+  },
+  {
+    "entry_id": "productcatalogservice_cpu/3",
+    "summary": "Primary anomaly: cartservice_latency rose 10.6x (baseline 0.00746 to peak 0.0793).\nOther anomalies: productcatalogservice_cpu rose 10.1x; productcatalogservice_mem rose 1.5x; checkoutservice_latency rose 1.5x; shippingservice_cpu fell 0.6x; frontend_cpu fell 0.6x.\nServices involved: cartservice, productcatalogservice, checkoutservice, shippingservice, frontend.",
+    "root_cause_service": "productcatalogservice",
+    "fault_type": "cpu",
+    "t_start": 1685373188,
+    "t_end": 1685373822
+  },
+  {
+    "entry_id": "productcatalogservice_cpu/4",
+    "summary": "Primary anomaly: cartservice_latency rose 13.0x (baseline 0.226 to peak 2.93).\nOther anomalies: productcatalogservice_cpu rose 8.5x; cartservice_cpu rose 7.5x; recommendationservice_latency rose 4.7x; frontend-external_error rose 0 to 74; frontend_error rose 0 to 74.4.\nServices involved: cartservice, productcatalogservice, recommendationservice, frontend-external, frontend.",
+    "root_cause_service": "productcatalogservice",
+    "fault_type": "cpu",
+    "t_start": 1685544586,
+    "t_end": 1685545565
+  },
+  {
+    "entry_id": "productcatalogservice_cpu/5",
+    "summary": "Primary anomaly: productcatalogservice_cpu rose 9.1x (baseline 10.9 to peak 100).\nOther anomalies: cartservice_latency rose 2.8x; currencyservice_cpu rose 2.2x; adservice_latency rose 2.1x; productcatalogservice_latency fell 0.0x; recommendationservice_latency fell 0.0x.\nServices involved: productcatalogservice, cartservice, currencyservice, adservice, recommendationservice.",
+    "root_cause_service": "productcatalogservice",
+    "fault_type": "cpu",
+    "t_start": 1685562803,
+    "t_end": 1685563903
+  },
+  {
+    "entry_id": "productcatalogservice_delay/1",
+    "summary": "Primary anomaly: productcatalogservice_latency rose 67.0x (baseline 0.00328 to peak 0.22).\nOther anomalies: recommendationservice_latency rose 49.7x; frontend_latency rose 36.6x; checkoutservice_latency rose 33.9x; cartservice_latency rose 2.1x; adservice_workload rose 3.4x.\nServices involved: productcatalogservice, recommendationservice, frontend, checkoutservice, cartservice.",
+    "root_cause_service": "productcatalogservice",
+    "fault_type": "delay",
+    "t_start": 1692589024,
+    "t_end": 1692589473
+  },
+  {
+    "entry_id": "productcatalogservice_delay/2",
+    "summary": "Primary anomaly: productcatalogservice_latency rose 70.1x (baseline 0.00335 to peak 0.235).\nOther anomalies: frontend_latency rose 29.0x; checkoutservice_latency rose 33.0x; currencyservice_cpu fell 0.4x; recommendationservice_latency rose 36.9x; frontend_cpu fell 0.6x.\nServices involved: productcatalogservice, frontend, checkoutservice, currencyservice, recommendationservice.",
+    "root_cause_service": "productcatalogservice",
+    "fault_type": "delay",
+    "t_start": 1692623691,
+    "t_end": 1692624124
+  },
+  {
+    "entry_id": "productcatalogservice_delay/3",
+    "summary": "Primary anomaly: checkoutservice_latency rose 40.7x (baseline 0.0424 to peak 1.72).\nOther anomalies: cartservice_latency rose 1.7x; cartservice_cpu fell 0.4x; frontend_cpu fell 0.5x; shippingservice_cpu fell 0.6x; productcatalogservice_cpu fell 0.5x.\nServices involved: checkoutservice, cartservice, frontend, shippingservice, productcatalogservice.",
+    "root_cause_service": "productcatalogservice",
+    "fault_type": "delay",
+    "t_start": 1692614177,
+    "t_end": 1692614847
+  },
+  {
+    "entry_id": "productcatalogservice_delay/4",
+    "summary": "Primary anomaly: recommendationservice_latency rose 95.0x (baseline 0.00546 to peak 0.518).\nOther anomalies: productcatalogservice_latency rose 75.8x; checkoutservice_latency rose 46.3x; frontend_latency rose 36.9x; cartservice_latency rose 24.2x; cartservice_cpu fell 0.4x.\nServices involved: recommendationservice, productcatalogservice, checkoutservice, frontend, cartservice.",
+    "root_cause_service": "productcatalogservice",
+    "fault_type": "delay",
+    "t_start": 1692706103,
+    "t_end": 1692706771
+  },
+  {
+    "entry_id": "productcatalogservice_disk/2",
+    "summary": "Primary anomaly: cartservice_latency rose 28.6x (baseline 0.00987 to peak 0.282).\nOther anomalies: productcatalogservice_latency rose 14.0x; recommendationservice_latency rose 4.5x; productcatalogservice_cpu rose 2.5x; frontend_latency rose 2.9x; checkoutservice_latency rose 7.2x.\nServices involved: cartservice, productcatalogservice, recommendationservice, frontend, checkoutservice.",
+    "root_cause_service": "productcatalogservice",
+    "fault_type": "disk",
+    "t_start": 1702374373,
+    "t_end": 1702375051
+  },
+  {
+    "entry_id": "productcatalogservice_disk/3",
+    "summary": "Primary anomaly: productcatalogservice_latency rose 14.3x (baseline 0.0046 to peak 0.066).\nOther anomalies: cartservice_latency rose 9.5x; checkoutservice_latency rose 5.5x; frontend_latency rose 2.7x; recommendationservice_latency rose 5.9x; productcatalogservice_cpu rose 2.5x.\nServices involved: productcatalogservice, cartservice, checkoutservice, frontend, recommendationservice.",
+    "root_cause_service": "productcatalogservice",
+    "fault_type": "disk",
+    "t_start": 1702375143,
+    "t_end": 1702375824
+  },
+  {
+    "entry_id": "productcatalogservice_disk/4",
+    "summary": "Primary anomaly: productcatalogservice_latency rose 12.5x (baseline 0.00478 to peak 0.0596).\nOther anomalies: cartservice_latency rose 3.3x; frontend_latency rose 2.0x; productcatalogservice_cpu rose 2.5x; currencyservice_cpu fell 0.6x; checkoutservice_latency rose 2.4x.\nServices involved: productcatalogservice, cartservice, frontend, currencyservice, checkoutservice.",
+    "root_cause_service": "productcatalogservice",
+    "fault_type": "disk",
+    "t_start": 1702375917,
+    "t_end": 1702376598
+  },
+  {
+    "entry_id": "productcatalogservice_disk/5",
+    "summary": "Primary anomaly: cartservice_latency rose 15.9x (baseline 0.0137 to peak 0.217).\nOther anomalies: productcatalogservice_latency rose 12.7x; productcatalogservice_cpu rose 2.6x; frontend_latency rose 2.5x; redis_cpu fell 0.6x; currencyservice_cpu fell 0.6x.\nServices involved: cartservice, productcatalogservice, frontend, redis, currencyservice.",
+    "root_cause_service": "productcatalogservice",
+    "fault_type": "disk",
+    "t_start": 1702376677,
+    "t_end": 1702377360
+  },
+  {
+    "entry_id": "productcatalogservice_loss/2",
+    "summary": "Primary anomaly: recommendationservice_latency rose 18.3x (baseline 0.00756 to peak 0.139).\nOther anomalies: checkoutservice_latency rose 6.5x; frontend-external_error rose 0 to 2; frontend_latency rose 7.4x; productcatalogservice_latency rose 1.9x; adservice_workload rose 3.3x.\nServices involved: recommendationservice, checkoutservice, frontend-external, frontend, productcatalogservice.",
+    "root_cause_service": "productcatalogservice",
+    "fault_type": "loss",
+    "t_start": 1692665990,
+    "t_end": 1692666664
+  },
+  {
+    "entry_id": "productcatalogservice_loss/3",
+    "summary": "Primary anomaly: checkoutservice_latency rose 19.5x (baseline 0.042 to peak 0.818).\nOther anomalies: recommendationservice_latency rose 15.5x; currencyservice_latency rose 1.7x; frontend_latency rose 7.3x; productcatalogservice_latency rose 1.7x; productcatalogservice_cpu fell 0.5x.\nServices involved: checkoutservice, recommendationservice, currencyservice, frontend, productcatalogservice.",
+    "root_cause_service": "productcatalogservice",
+    "fault_type": "loss",
+    "t_start": 1692666781,
+    "t_end": 1692667430
+  },
+  {
+    "entry_id": "productcatalogservice_loss/4",
+    "summary": "Primary anomaly: recommendationservice_latency rose 20.3x (baseline 0.00894 to peak 0.181).\nOther anomalies: checkoutservice_latency rose 9.3x; frontend_latency rose 7.7x; productcatalogservice_mem rose 2.2x; currencyservice_latency rose 1.9x; cartservice_latency rose 1.7x.\nServices involved: recommendationservice, checkoutservice, frontend, productcatalogservice, currencyservice.",
+    "root_cause_service": "productcatalogservice",
+    "fault_type": "loss",
+    "t_start": 1692667538,
+    "t_end": 1692668223
+  },
+  {
+    "entry_id": "productcatalogservice_loss/5",
+    "summary": "Primary anomaly: cartservice_latency rose 33.8x (baseline 0.00457 to peak 0.154).\nOther anomalies: recommendationservice_latency rose 23.8x; checkoutservice_latency rose 7.6x; frontend_latency rose 6.7x; productcatalogservice_cpu fell 0.5x; emailservice_cpu fell 0.5x.\nServices involved: cartservice, recommendationservice, checkoutservice, frontend, productcatalogservice.",
+    "root_cause_service": "productcatalogservice",
+    "fault_type": "loss",
+    "t_start": 1692668312,
+    "t_end": 1692668975
+  },
+  {
+    "entry_id": "productcatalogservice_mem/1",
+    "summary": "Primary anomaly: recommendationservice_latency rose 247.9x (baseline 0.00978 to peak 2.42).\nOther anomalies: productcatalogservice_latency rose 183.7x; cartservice_latency rose 120.5x; productcatalogservice_mem rose 55.3x; checkoutservice_latency rose 47.4x; frontend_latency rose 27.2x.\nServices involved: recommendationservice, productcatalogservice, cartservice, checkoutservice, frontend.",
+    "root_cause_service": "productcatalogservice",
+    "fault_type": "mem",
+    "t_start": 1685381064,
+    "t_end": 1685383701
+  },
+  {
+    "entry_id": "productcatalogservice_mem/2",
+    "summary": "Primary anomaly: cartservice_latency rose 74.2x (baseline 0.00914 to peak 0.678).\nOther anomalies: recommendationservice_latency rose 67.1x; productcatalogservice_mem rose 54.1x; productcatalogservice_latency rose 51.1x; checkoutservice_latency rose 27.0x; productcatalogservice_cpu rose 8.7x.\nServices involved: cartservice, recommendationservice, productcatalogservice, checkoutservice, adservice.",
+    "root_cause_service": "productcatalogservice",
+    "fault_type": "mem",
+    "t_start": 1685386861,
+    "t_end": 1685388610
+  },
+  {
+    "entry_id": "productcatalogservice_mem/3",
+    "summary": "Primary anomaly: productcatalogservice_latency rose 141.4x (baseline 0.00491 to peak 0.695).\nOther anomalies: recommendationservice_latency rose 68.3x; productcatalogservice_mem rose 53.6x; cartservice_latency rose 49.6x; checkoutservice_latency rose 30.5x; productcatalogservice_cpu rose 8.6x.\nServices involved: productcatalogservice, recommendationservice, cartservice, checkoutservice, frontend-external.",
+    "root_cause_service": "productcatalogservice",
+    "fault_type": "mem",
+    "t_start": 1685389758,
+    "t_end": 1685393581
+  },
+  {
+    "entry_id": "productcatalogservice_mem/4",
+    "summary": "Primary anomaly: productcatalogservice_latency rose 116.1x (baseline 0.00477 to peak 0.553).\nOther anomalies: recommendationservice_latency rose 72.5x; productcatalogservice_mem rose 54.5x; cartservice_latency rose 53.2x; checkoutservice_latency rose 24.1x; frontend_latency rose 9.4x.\nServices involved: productcatalogservice, recommendationservice, cartservice, checkoutservice, frontend.",
+    "root_cause_service": "productcatalogservice",
+    "fault_type": "mem",
+    "t_start": 1685394084,
+    "t_end": 1685398252
+  }
+]
